@@ -1,12 +1,17 @@
 streamlit
-opencv-python-headless
-numpy
+# Specifying exact OpenCV version known to work in headless environments
+opencv-python-headless==4.8.1.78
+numpy<2.0.0
 Pillow
 pygame
 requests
 yt-dlp
+# Using compatible TensorFlow version
 tensorflow==2.16.1
-# We don't need to specify keras separately as it comes with tensorflow
-# Using newer deepface version that's compatible with newer tensorflow
+# More compatible deepface version
 deepface>=0.0.83
+# Adding specific dependencies that help with compatibility
 protobuf>=3.20.3
+# Force specific package versions for compatibility
+python-multipart>=0.0.6
+gdown>=4.7.1
