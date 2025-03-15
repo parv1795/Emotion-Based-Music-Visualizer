@@ -1,13 +1,9 @@
 streamlit
 opencv-python-headless==4.8.0.74
-numpy==1.23.5
+numpy<2.0.0
 Pillow
 pygame
 requests
 yt-dlp
-# Using older TensorFlow version compatible with DeepFace
-tensorflow==2.10.0
-keras==2.10.0
-deepface==0.0.79
-# Avoid protobuf issues
-protobuf==3.19.6
+tensorflow==2.16.1
+keras
