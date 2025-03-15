@@ -5,7 +5,6 @@ Pillow
 pygame
 requests
 yt-dlp
-tensorflow==2.15.0
-keras==2.15.0
+tensorflow==2.19.0
+keras==3.9.0
 deepface==0.0.79
-tf-keras
