@@ -1,17 +1,12 @@
 streamlit
-# Specifying exact OpenCV version known to work in headless environments
-opencv-python-headless==4.8.1.78
+opencv-python-headless==4.8.0.74
 numpy<2.0.0
 Pillow
 pygame
 requests
 yt-dlp
-# Using compatible TensorFlow version
 tensorflow==2.16.1
-# More compatible deepface version
-deepface>=0.0.83
-# Adding specific dependencies that help with compatibility
+deepface==0.0.83
 protobuf>=3.20.3
-# Force specific package versions for compatibility
 python-multipart>=0.0.6
 gdown>=4.7.1
