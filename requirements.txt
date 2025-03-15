@@ -7,7 +7,7 @@ requests==2.31.0
 yt-dlp==2024.3.10
 tensorflow==2.15.0
 keras==2.15.0
-mtcnn==1.0.0
 deepface==0.0.79
 gdown==5.2.0
-tf-keras
+setuptools
+wheel
