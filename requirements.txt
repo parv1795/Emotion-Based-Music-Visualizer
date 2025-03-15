@@ -1,0 +1,8 @@
+streamlit
+opencv-python-headless
+numpy
+yt-dlp
+deepface
+pillow
+pygame
+requests
