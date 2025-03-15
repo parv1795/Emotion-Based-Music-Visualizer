@@ -1,9 +1,11 @@
 streamlit
 opencv-python-headless==4.8.0.74
-numpy<2.0.0
+numpy
 Pillow
 pygame
 requests
 yt-dlp
 tensorflow==2.16.1
-keras
+tf-keras>=2.16.0
+deepface>=0.0.83
+protobuf>=3.20.3
