@@ -5,7 +5,8 @@ Pillow
 pygame
 requests
 yt-dlp
-tensorflow==2.15.0
-keras==2.15.0
-deepface==0.0.79
-protobuf==3.20.3
+tensorflow==2.16.1
+# We don't need to specify keras separately as it comes with tensorflow
+# Using newer deepface version that's compatible with newer tensorflow
+deepface>=0.0.83
+protobuf>=3.20.3
