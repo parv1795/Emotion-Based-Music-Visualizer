@@ -5,8 +5,9 @@ Pillow
 pygame
 requests
 yt-dlp
-tensorflow
+tensorflow==2.15.0
 keras
 mtcnn
 deepface
 gdown
+tf-keras
